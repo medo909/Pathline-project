@@ -1,0 +1,54 @@
+h1{
+  text-align: center;
+  color: gold;
+}
+body{
+  background-image:  linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
+url(backgroundimage_css.jfif); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color:#F2F2F2;
+  font-family:'Nunito', sans-serif;
+}
+
+.emoji{
+  font-size:20px;
+  margin-left: 4px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+h3{
+  color: gold;
+}
+p,li{
+  font-family: 'Nunito', sans-serif;
+}
+h1,h3{
+    font-family: 'Baloo 2', cursive;
+}
+img{
+  width: 25px;
+}
+.item p{
+display: inline-block;
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 18px;
+}
+
+button{
+  background-color: lightblue;
+  color: black;
+  border-radius: 16px;
+  border-color:white;
+  padding: 8px 16px;
+  font-size: 10px;
+  cursor: pointer;
+}
+button:hover{
+  background-color:gold;
+  transition: 0.5s;
+}
